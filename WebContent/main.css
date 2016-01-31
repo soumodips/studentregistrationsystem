@@ -1,0 +1,163 @@
+body {
+
+	padding: 0; /* Gets rid of the automatic padding */
+
+	margin: 0;	/*	on HTML documents */
+	
+	color: #3e0000;
+
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+
+	background: url('background-photo.jpg');
+	
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+	
+	background-position: fixed;
+	
+	font-size: 16px;
+
+}
+
+body a:hover{
+	
+	color: #858585;
+}
+
+
+h1{
+	background-color: #2f0000;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+h3{
+	background-color: #ff0000;
+	color: #ffffff;
+	
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+a{
+	color: #3e0000;
+	font-size: 16px;
+	font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	text-decoration: none;
+}
+
+
+#navigation {
+
+  position: fixed;
+
+  bottom: 0;
+
+  width: 100%;
+
+  color: #ffffff;
+
+  height: 30px;
+
+  text-align: center;
+
+  padding-top: 15px;
+  /* Adds shadow to the bottom of the bar */
+
+  -webkit-box-shadow: 0px 0px 8px 2px #000000;
+
+  -moz-box-shadow: 0px 0px 8px 2px #000000;
+
+  box-shadow: 0px 0px 8px 2px #000000;
+  /* Adds the transparent background */
+
+  background-color: rgba(1, 1, 1, 0.8);
+
+  color: rgba(1, 1, 1, 0.8);
+
+}
+
+
+#navigation a {
+
+	font-size: 14px;
+	
+padding-left: 15px;
+
+	padding-right: 15px;
+
+	color: white;
+
+	text-decoration: none;
+
+}
+
+
+#navigation a:hover {
+
+	color: grey;
+
+}
+
+
+/* This just adds some style to the placeholder text */
+
+
+#content {
+
+	width: 1000px;
+	
+	
+	
+	box-shadow: 5px 5px 20px #000000;
+	
+	webkit-box-shadow: 5px 5px 20px #000000;
+	
+	moz-box-shadow: 5px 5px 20px #888888;
+	 
+	 
+    opacity: 0.8;
+	
+	padding-top: 70px;
+
+	padding-bottom: 30px;
+	
+	padding-left: 30px;
+
+	padding-right: 30px;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+#content img {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+div{
+	
+    -webkit-animation: mymove 1s 1; /* Chrome, Safari, Opera */
+    animation: mymove 1s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+	
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+
+
